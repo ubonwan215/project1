@@ -19,3 +19,6 @@ Route::get('/about', [HomeController::class, 'about']);
 Route::get('/contact', [HomeController::class, 'contact']);
 Route::get('/hello/{name}/{age}', [HomeController::class, 'hello']);
 
+Route::get('/category', [categorycontroller::class, 'index']);
+Route::get('/about', [categorycontroller::class, 'creata']);
+
