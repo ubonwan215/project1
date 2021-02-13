@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>สวัสดี </H1>
+    <a href="/">Home</a> | <a href="/about">about</a>
+    <H1>สวัสดี {{$name}} อายุ {{$age}}</H1>
 </body>
 </html>

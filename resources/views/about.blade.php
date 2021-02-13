@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>สวัสดี </H1>
+    <H1>about </H1>
 </body>
 </html>
