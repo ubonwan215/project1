@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="/">Home</a> | <a href="/about">about</a> | <a href="/contact">contact</a>
-    <H1>สวัสดี {{$name}} อายุ {{$age}}</H1>
+    <a href="/">Home</a> | <a href="/about">about</a>
+    @yield("content")
+    <hr>
+    &copy; 2021 Bundit Nuntates
 </body>
 </html>
